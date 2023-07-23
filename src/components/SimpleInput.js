@@ -1,7 +1,7 @@
 import useInput from "../hooks/useInput";
 const SimpleInput = (props) => {
   const {
-    changedValue: changedName,
+    value: changedName,
     hasError: NamehasError,
     inputChangedHandler: nameChangedHandler,
     inputBlurHandler: nameBlurHandler,
